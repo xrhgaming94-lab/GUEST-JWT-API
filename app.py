@@ -149,7 +149,7 @@ def process_token(uid, password):
         'Expect': "100-continue",
         'X-GA': "v1 1",
         'X-Unity-Version': "2018.4.11f1",
-        'ReleaseVersion': "OB51"
+        'ReleaseVersion': "OB52"
     }
     edata = bytes.fromhex(hex_encrypted_data)
 
@@ -196,7 +196,7 @@ def get_token_response():
         "region": result.get("region"),
         "status": result.get("status"),
         "credit": "Flexbase",
-        "Join For More": "Telegram: @Flexbasei"
+        "Join For More": "Telegram: @star_methode"
     }
 
     response = make_response(jsonify(ordered_result))
