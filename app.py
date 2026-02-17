@@ -195,7 +195,7 @@ def get_token_response():
         "api": result.get("api"),
         "region": result.get("region"),
         "status": result.get("status"),
-        "credit": "Flexbase",
+        "credit": "star gamer",
         "Join For More": "Telegram: @star_methode"
     }
 
