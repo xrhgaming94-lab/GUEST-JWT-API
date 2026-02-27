@@ -149,7 +149,7 @@ def process_token(uid, password):
         'Expect': "100-continue",
         'X-GA': "v1 1",
         'X-Unity-Version': "2018.4.11f1",
-        'ReleaseVersion': "OB51"
+        'ReleaseVersion': "OB52"
     }
     edata = bytes.fromhex(hex_encrypted_data)
 
