@@ -1,4 +1,3 @@
 Flask
+danger-ffjwt
 requests
-pycryptodome
-protobuf
