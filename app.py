@@ -175,7 +175,7 @@ def process_token(uid, password):
         'Expect': "100-continue",
         'X-Unity-Version': "2018.4.11f1",
         'X-GA': "v1 1",
-        'ReleaseVersion': "OB52"
+        'ReleaseVersion': "OB53"
     }
     edata = bytes.fromhex(hex_encrypted_data)
 
@@ -290,7 +290,7 @@ def process_access_token(access_token, uid=None, platform_type=4):
         'Expect': "100-continue",
         'X-Unity-Version': "2018.4.11f1",
         'X-GA': "v1 1",
-        'ReleaseVersion': "OB52"
+        'ReleaseVersion': "OB53"
     }
     edata = bytes.fromhex(hex_encrypted_data)
 
