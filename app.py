@@ -1,5 +1,5 @@
-#KX ON TOP BABY !! 
-#SRC MADE BY - KALLU CODEX 
+#STAR ON TOP BABY !! 
+#SRC MADE BY - STAR GAMER
 #WARNNING - "DON'T CHANGE CREDITS" 
 from flask import Flask, jsonify, request
 from flask_caching import Cache
@@ -308,7 +308,7 @@ def process_access_token(access_token, uid=None, platform_type=4):
                     "status": response_dict.get("status", "N/A"),
                     "team": "𝗦𝗧𝗔𝗥",
                     "token": response_dict.get("token", "N/A"),
-                    "uid": uid,
+                    "uid": account_id,
                     "open_id": open_id,
                     "platform_type": platform_type
                 }
