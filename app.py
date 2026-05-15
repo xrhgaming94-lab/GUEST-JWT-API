@@ -308,7 +308,7 @@ def process_access_token(access_token, uid=None, platform_type=4):
                     "status": response_dict.get("status", "N/A"),
                     "team": "𝗦𝗧𝗔𝗥",
                     "token": response_dict.get("token", "N/A"),
-                    "uid": account_id,
+                    "uid": uid,
                     "open_id": open_id,
                     "platform_type": platform_type
                 }
