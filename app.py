@@ -306,8 +306,8 @@ def process_access_token(access_token, uid=None, platform_type=4):
                     "success": True,
                     "region": response_dict.get("region", "N/A"),
                     "status": response_dict.get("status", "N/A"),
-                    "team": "x64",
-                    "BearerAuth": response_dict.get("token", "N/A"),
+                    "team": "𝗦𝗧𝗔𝗥",
+                    "token": response_dict.get("token", "N/A"),
                     "uid": uid,
                     "open_id": open_id,
                     "platform_type": platform_type
